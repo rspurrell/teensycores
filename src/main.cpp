@@ -34,13 +34,13 @@ extern "C" int main(void)
 {
 #ifdef USING_MAKEFILE
 
-	// To use Teensy 3.0 without Arduino, simply put your code here.
+	// To use Teensy without Arduino IDE, simply put your code here.
 	// For example:
 
 	pinMode(13, OUTPUT);
 	while (1) {
 		digitalWriteFast(13, HIGH);
-		delay(500);
+		delay(1000);
 		digitalWriteFast(13, LOW);
 		delay(500);
 	}
