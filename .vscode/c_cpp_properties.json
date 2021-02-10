@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Teensy31",
+            "includePath": [
+                "${workspaceFolder}/src/**",
+                "${workspaceFolder}/teensy3/**"
+            ],
+            "defines": [
+                "DEBUG",
+                "USB_SERIAL",
+                "LAYOUT_US_ENGLISH",
+                "USING_MAKEFILE",
+                "F_CPU=72000000",
+                "__MK20DX256__",
+                "ARDUINO=10805",
+                "TEENSYDUINO=153"
+            ],
+            "compilerPath": "/home/rspurrell/arduino_ide/arduino-1.8.13/hardware/tools/arm/bin/arm-none-eabi-gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "gcc-arm"
+        }
+    ],
+    "version": 4
+}
